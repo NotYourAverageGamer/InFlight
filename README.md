@@ -6,17 +6,25 @@ Other addons may provide a similar feature, however, InFlight is a lightweight a
 
 ## Features
 
+- InFlight is LoadOnDemand to use less memory when not needed
 - Many customization options for the look of the timer bar
 - Support for Druid-only and some other special flight paths
 - Already has most flight times
 - Learns new flight times or updates existing flight times when taxis are used
 - Flight times added to tooltip on flight map
 
+## How to Install
+
+- [Download](https://github.com/NotYourAverageGamer/InFlight-3.3.5/archive/refs/heads/main.zip) the `.zip`
+- Extract both `InFlight` and `InFlight_Load` to your Addons folder (`resources\client\Interface\AddOns`)
+
 ## How to Use
 
-- InFlight is LoadOnDemand to use less memory when not needed
-- `/inflight`, right-click on the timer bar, or check interface options to customise
 - `Shift+left-click` and drag to move the timer bar
+- To customise the appearance do one of the following
+    - Type `/inflight`
+    - `Right-Click` on the timer bar *(if showing)*
+    - Or, check `Esc -> Interface -> Addons`
 
 ## Acknowledgements
 
