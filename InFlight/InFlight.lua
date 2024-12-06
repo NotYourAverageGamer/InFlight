@@ -445,6 +445,9 @@ do  -- timer bar
 				end
 				return
 			end
+			if not UnitOnTaxi("player") then  -- event bug fix
+				ontaxi = nil
+			end
 			if not ontaxi then  -- flight ended
 				if not porttaken then 
 					vars[source] = vars[source] or { }
